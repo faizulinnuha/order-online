@@ -4,7 +4,7 @@
 
 - Download Codeigniter 4.x.x : https://github.com/codeigniter4/framework/archive/v4.1.3.zip
 - Replace Folder App & File env
-- Buat Database **northwind** dan import file database northwind.sql
+- Buat Database baru bernama **northwind** dan import file database northwind.sql
 
 ## Server Requirements
 
