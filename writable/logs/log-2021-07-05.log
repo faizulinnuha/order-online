@@ -1,0 +1,205 @@
+CRITICAL - 2021-07-05 21:36:43 --> Class 'App\Controllers\OrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(900): App\Controllers\Orders->__construct()
+#1 /var/www/html/order-online/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:37:21 --> Class 'App\Controllers\OrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(900): App\Controllers\Orders->__construct()
+#1 /var/www/html/order-online/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:37:26 --> Class 'App\Controllers\OrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(900): App\Controllers\Orders->__construct()
+#1 /var/www/html/order-online/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:37:59 --> Class 'App\Controllers\OrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#1 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:37:59 --> Class 'App\Controllers\OrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#1 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:40:12 --> Class 'App\ModelsOrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#1 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:40:13 --> Class 'App\ModelsOrdersModel' not found
+#0 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#1 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:41:11 --> Call to a member function table() on null
+#0 /var/www/html/order-online/app/Controllers/Orders.php(11): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 21:41:51 --> Call to a member function table() on null
+#0 /var/www/html/order-online/app/Controllers/Orders.php(11): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 21:43:24 --> Call to a member function database() on null
+#0 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#1 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 21:45:33 --> Call to a member function table() on null
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-05 21:48:01 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-07-05 21:48:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 /var/www/html/order-online/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/order-online/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/order-online/app/Models/OrdersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-05 21:48:44 --> Cannot use object of type mysqli as array
+#0 /var/www/html/order-online/system/View/View.php(230): include()
+#1 /var/www/html/order-online/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/order-online/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(16): view()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-05 21:49:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 21:49:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 21:50:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 21:52:43 --> Cannot use object of type mysqli as array
+#0 /var/www/html/order-online/system/View/View.php(230): include()
+#1 /var/www/html/order-online/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/order-online/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(16): view()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-05 21:52:44 --> Cannot use object of type mysqli as array
+#0 /var/www/html/order-online/system/View/View.php(230): include()
+#1 /var/www/html/order-online/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/order-online/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(16): view()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-05 21:53:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::fetch_assoc()
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 21:55:37 --> Cannot use object of type stdClass as array
+#0 /var/www/html/order-online/system/View/View.php(230): include()
+#1 /var/www/html/order-online/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/order-online/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(16): view()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-05 21:56:41 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/order-online/system/View/View.php(230): include()
+#1 /var/www/html/order-online/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/order-online/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(16): view()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-05 21:57:04 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#1 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-05 22:01:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 22:01:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 /var/www/html/order-online/app/Controllers/Orders.php(14): App\Models\OrdersModel->getOrders()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-05 22:02:27 --> Cannot use object of type mysqli as array
+#0 /var/www/html/order-online/system/View/View.php(230): include()
+#1 /var/www/html/order-online/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/order-online/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/html/order-online/app/Controllers/Orders.php(16): view()
+#4 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->index()
+#5 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-05 22:26:13 --> Table 'northwind.orders_detail' doesn't exist
+CRITICAL - 2021-07-05 22:26:13 --> Call to a member function getResult() on bool
+#0 /var/www/html/order-online/app/Controllers/Orders.php(22): App\Models\OrdersModel->getOrdersDetails()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->detail()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-05 22:26:40 --> Table 'northwind.orders_details' doesn't exist
+CRITICAL - 2021-07-05 22:26:40 --> Call to a member function getResult() on bool
+#0 /var/www/html/order-online/app/Controllers/Orders.php(22): App\Models\OrdersModel->getOrdersDetails()
+#1 /var/www/html/order-online/system/CodeIgniter.php(928): App\Controllers\Orders->detail()
+#2 /var/www/html/order-online/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/order-online/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/order-online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
